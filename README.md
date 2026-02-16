@@ -1,6 +1,6 @@
 # Vina Plug & Play
 
-An interactive Google Colab notebook for molecular docking using **AutoDock Vina**. This tool walks you through the entire docking workflow — from ligand preparation to receptor cleaning to docking and pose extraction — with guided prompts at every step. No scripting required.
+An interactive Google Colab notebook for molecular docking using **AutoDock Vina**. This tool walks you through abasic docking workflow; it is designed for use without any programming experience using guided prompts at every step.
 
 ## Overview
 
