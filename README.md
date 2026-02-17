@@ -1,10 +1,10 @@
 # Vina Plug & Play
 
-An interactive Google Colab notebook for molecular docking using **AutoDock Vina**. This tool walks you through abasic docking workflow; it is designed for use without any programming experience using guided prompts at every step.
+An interactive Google Colab notebook for molecular docking using **AutoDock Vina**. This tool walks you through a basic docking workflow; it is designed for use without any programming experience using guided prompts at every step.
 
 ## Overview
 
-This notebook provides a basic streamlined, step-by-step pipeline for protein–ligand docking:
+This notebook provides a basic step-by-step pipeline for protein–ligand docking:
 
 1. **Ligand Preparation** : Generate a ligand `.pdbqt` file from a SMILES string, or upload your own.
 2. **Receptor Preparation** : Fetch a protein structure from the PDB (or upload one), clean it (remove water, ligands, etc.), define the binding pocket, and convert to `.pdbqt`.
@@ -26,9 +26,10 @@ All dependencies are installed automatically within the notebook:
 
 1. Open the notebook in **Google Colab**.
 2. Run cells sequentially; each step will prompt you for input.
+   To test this notebook, I suggest you find a PDB structure with a ligand bound in the database and use it as the ground truth. Run this notebook on that structure. In PyMOL (or another vizsualization tool) load the output ligand of Autodock Vina and the actual PDB structure containing the ligand - they should significantly overlap. 
 3. Optionally mount Google Drive to read/save files directly.
    
-To test this notebook, I suggest you find a PDB structure with a ligand bound in the database and use it as the ground truth. Run this notebook on that structure. In PyMOL (or another vizsualization tool) load the output ligand of Autodock Vina and the actual PDB structure containing the ligand - they should significantly overlap. 
+
 
 ### Step 1: Ligand Preparation
 
