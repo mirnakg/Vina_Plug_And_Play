@@ -27,6 +27,7 @@ All dependencies are installed automatically within the notebook:
 1. Open the notebook in **Google Colab**.
 2. Run cells sequentially; each step will prompt you for input.
 3. Optionally mount Google Drive to read/save files directly.
+   
 To test this notebook, I suggest you find a PDB structure with a ligand bound in the database and use it as the ground truth. Run this notebook on that structure. In PyMOL (or another vizsualization tool) load the output ligand of Autodock Vina and the actual PDB structure containing the ligand - they should significantly overlap. 
 
 ### Step 1: Ligand Preparation
