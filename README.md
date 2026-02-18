@@ -73,6 +73,7 @@ Pose   Total    Inter    Intra
 ## Notes
 
 - Designed for **Google Colab** (uses `google.colab` for file uploads and Drive mounting)
-- This assumes the binding pocket is known, useful for testing binding of non-native substrates to a characterized binding site for example
+- This assumes the binding pocket is known, useful for testing binding of non-native substrates to a characterized binding site for example. However, you can test a more global docking by increasing the binding pocket radius - this will take longer to run though.
+- For more control over tool parameters used, edit the code itself
 - For more control over receptor preparation, use **PyMOL** as an alternative
 - Re-run Steps 1–4 to dock additional protein–ligand pairs in the same session
